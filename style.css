@@ -41,9 +41,22 @@ button {
     transform: translateY(-50%); /* Content will become vertically centre */
     z-index: 2;
 }
-
 h1 {
     font-size: 80px;
     margin: 10px 0 30%;
     line-height: 80px;
+}
+.side-bar {
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu {
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
 }
