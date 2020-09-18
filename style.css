@@ -33,3 +33,17 @@ button {
     outline: none;
     cursor: pointer;
 }
+.content {
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%); /* Content will become vertically centre */
+    z-index: 2;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 10px 0 30%;
+    line-height: 80px;
+}
